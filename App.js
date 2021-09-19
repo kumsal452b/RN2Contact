@@ -26,6 +26,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import AppNavContainer from './src/navigations';
+import { NavigationContainer } from '@react-navigation/native';
 
 
 const App = () => {
@@ -36,9 +37,9 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
+    <NavigationContainer>
       <AppNavContainer />
-    </SafeAreaView>
+    </NavigationContainer>
   );
 };
 

@@ -18,8 +18,6 @@ const ContactDetail = () => {
     );
 }
 
-
-
 const HomeNavigator = () => {
     const HomeStack = createNativeStackNavigator();
     return (
